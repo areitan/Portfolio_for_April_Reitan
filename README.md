@@ -52,6 +52,7 @@ In order to create this application, I used the skills I have at the moment. I a
 ## Credits
 
 - [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages)
+- [Pexels stock photos](https://www.pexels.com/)
 - Trilogy Education Services, LLC for the example code throughout the week 18 exercises, and the example mock-up.
 - Chris Baird, my tutor
 
