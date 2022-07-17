@@ -1,5 +1,5 @@
 {
-  "name": "bucket-list",
+  "name": "Portfolio-for-April-Reitan",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,13 +10,16 @@
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "homepage": "https://github.com/areitan/Portfolio_for_April_Reitan"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
