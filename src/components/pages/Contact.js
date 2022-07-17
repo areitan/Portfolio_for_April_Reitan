@@ -1,10 +1,13 @@
 import React from 'react';
+import Form from './Form/index';
+
 
 export default function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
       <div className="contact-me">
+      <Form />
         <h2 id="contact-me">Contact Me</h2>
         <p><a href="mailto:areitan@fredhutch.org">areitan@fredhutch.org</a></p>
         <p><a href="https://github.com/areitan">GitHub</a></p>
