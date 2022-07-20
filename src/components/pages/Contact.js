@@ -1,11 +1,11 @@
 import React from 'react';
-import Form from './Form/index';
+import Form from '../Form/index';
 
 
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <h1>Contact Me</h1>
       <div className="contact-me">
       <Form />
         <h2 id="contact-me">Contact Me</h2>
