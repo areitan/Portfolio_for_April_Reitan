@@ -5,7 +5,7 @@
 ---
 ## Description
 
-This is a Portfolio for April Reitan built from starter code. It uses [React](https://www.mongodb.com/).
+This is a Portfolio for April Reitan built using [React](https://www.mongodb.com/).
   
 
 ---
@@ -36,10 +36,10 @@ In order to use this application, navigate to the deployed application: [Portfol
 ---
 ## Tests
 
-
+Tests of this site were done manually by accessing and viewing the site.
 
 ### Portfolio for April Reitan Mock-ups Provided
-![Portfolio for April Reitan Mock-up 1](/assets/20-react-homework-demo-01.gif)
+![Portfolio for April Reitan Mock-up 1](/src/assets/20-react-homework-demo-01.gif)
 
 
 
@@ -53,7 +53,10 @@ In order to create this application, I used the skills I have at the moment. I a
 
 - [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages)
 - [Pexels stock photos](https://www.pexels.com/)
-- Trilogy Education Services, LLC for the example code throughout the week 18 exercises, and the example mock-up.
+- [freeCodeCamp: How to Set a Background Image in React From Your /src Folder](https://www.freecodecamp.org/news/react-background-image-tutorial-how-to-set-backgroundimage-with-inline-css-style/)
+- [Dave: Ceddia: Using the image tag in React](https://daveceddia.com/react-image-tag/#:~:text=Option%201%3A%20import%20the%20image,%2Fpath%2Fto%2Flogo.)
+- [Joel Olawanle: Resizing Images with React](https://stackabuse.com/resizing-images-with-react/)
+- Trilogy Education Services, LLC for the example code throughout the week 20 exercises, and the example mock-up.
 - Chris Baird, my tutor
 
 

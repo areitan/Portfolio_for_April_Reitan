@@ -1,34 +1,84 @@
 import React from 'react';
+import '../../styles/style.css';
+import Pic1 from '../../assets/1_index_screenshot.png'
+import Pic2 from '../../assets/2_Accessible_Wesite_Display.png'
+import Pic3 from '../../assets/3_password.png'
+import Pic4 from '../../assets/4_Day_Planner.png'
+import Pic5 from '../../assets/5_ViewProfile.png'
+
+
+
+const styles = {
+  work: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "spaceBetween",
+    alignItems: "spaceBetween",
+    gap: "50px",
+    position: "relative",
+    padding: "25px",
+    color: "white",
+},
+textPosition: {
+  position: "absolute",
+  bottom: "20px",
+  left: "16px",
+  fontSize: "30px",
+  border: "3px solid rgb(0, 162, 255)",
+  backgroundColor: "rgb(0, 162, 255)",
+  color: "white",
+},
+h2: {
+  flexBasis: "25%",
+  alignSelf: "flexStart",
+  alignItems: "flexStart",
+},
+picGrid: {
+  display: "flex",
+  flexBasis: "100%",
+  gap: "25px",
+  flexDirection: "row",
+  flexWrap: "wrap",
+},
+img: {
+  maxHeight: "350px",
+},
+boxItem: {
+  border: "3px solid var(--background-color)",
+  padding: "10px",
+    position: "relative",
+  }
+};
 
 export default function Project() {
   return (
-    <div className="work">
+    <div style={styles.work}>
       <h1 id="work">My Work</h1>
-      <div className="pic-grid">
-        <div className="box-item item1">
-          <a href="https://areitan.github.io/PocketMonster/"><img className="big" alt="PocketMonster"
-            src="./assets/images/index_screenshot.png"/></a>
-          <div className="text-position">PocketMonster</div>
+      <div style={styles.picGrid}>
+        <div style={styles.boxItem}>
+          <a href="https://areitan.github.io/PocketMonster/"><img style={{ width: 800, height: "auto" }} className="big" alt="PocketMonster"
+            src={Pic1}/></a>
+          <div style={styles.textPosition}>PocketMonster</div>
         </div>
-        <div className="box-item item2">
-          <a href="https://areitan.github.io/SemanticMarkup/"><img alt="Semantic Markup"
-            src="./assets/images/Accessible_Wesite_Display.png"/></a>
-          <div className="text-position">Semantic Markup</div>
+        <div style={styles.boxItem}>
+          <a href="https://areitan.github.io/SemanticMarkup/"><img style={{ width: 600, height: "auto" }} alt="Semantic Markup"
+            src={Pic2}/></a>
+          <div style={styles.textPosition}>Semantic Markup</div>
         </div>
-        <div className="box-item item3">
-          <a href="https://areitan.github.io/Password_Generator/"><img alt="Password Generator"
-            src="./assets/images/password.png"/></a>
-          <div className="text-position">Password Generator</div>
+        <div style={styles.boxItem}>
+          <a href="https://areitan.github.io/Password_Generator/"><img style={{ width: 600, height: "auto" }} alt="Password Generator"
+            src={Pic3}/></a>
+          <div style={styles.textPosition}>Password Generator</div>
         </div>
-        <div className="box-item item4">
-          <a href="https://areitan.github.io/Day_Planner/"><img alt="Day Planner"
-            src="./assets/images/Day_Planner.png"/></a>
-          <div className="text-position">Day Planner</div>
+        <div style={styles.boxItem}>
+          <a href="https://areitan.github.io/Day_Planner/"><img style={{ width: 600, height: "auto" }} alt="Day Planner"
+            src={Pic4}/></a>
+          <div style={styles.textPosition}>Day Planner</div>
         </div>
-        <div className="box-item item5">
-          <a href="https://drive.google.com/file/d/1g5jCev9P6KtSrnee9WpiLV1jh25YpQS9/view"><img alt="Team Profile Generator"
-            src="./assets/images/5_ViewProfile.png"/></a>
-          <div className="text-position">Team Profile Generator</div>
+        <div style={styles.boxItem}>
+          <a href="https://drive.google.com/file/d/1g5jCev9P6KtSrnee9WpiLV1jh25YpQS9/view"><img style={{ width: 600, height: "auto" }} alt="Team Profile Generator"
+            src={Pic5}/></a>
+          <div style={styles.textPosition}>Team Profile Generator</div>
         </div>
       </div>
     </div>

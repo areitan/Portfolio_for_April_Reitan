@@ -1,0 +1,109 @@
+/* Sets variables */
+:root {
+    --background-color: rgb(0, 162, 255);
+    --white: white;
+    --pad: 25px;
+    --color: rgb(5, 5, 56);
+}
+
+/* Sets main body attributes */
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    background-image: radial-gradient(circle, rgb(238, 244, 248), rgb(32, 99, 138), rgb(50, 53, 190));
+}
+
+
+/* Set text styling nav links  */
+nav a {
+    text-decoration: underline;
+    font-size: 25px;
+    color: var(--white);
+}
+
+/* On hover over nav links background changes */
+nav a:hover {
+    background-color: var(--background-color);
+}
+
+/* Set h2 font size */
+h2 {
+    font-size: 200%;
+    flex-basis: 25%;
+    color: var(--white);
+}
+
+/* flex container contact me */
+/* .contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    padding: var(--pad);
+    color: var(--color);
+} */
+
+/* Controls contact-me h2 position */
+.contact-me h2 {
+    flex-basis: 25%;
+    align-self: flex-start;
+    align-items: flex-start;
+}
+
+/* styles contact me */
+.contact-me a {
+    text-decoration: underline;
+    font-size: 25px;
+    justify-content: space-evenly;
+    color: var(--white);
+}
+
+/* On hover over nav links background changes */
+.contact-me a:hover {
+    display: inline-block;
+    background-color: rgb(5, 5, 56);
+    color: var(--white);
+    padding: 3px;
+}
+
+/* Set h3 text position */
+/* .text-position {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    font-size: 30px;
+    border: 3px solid var(--background-color);
+    background-color: var(--background-color);
+    color: var(--white);
+} */
+
+Adds box around repo links */
+.boxItem {
+    border: 3px solid var(--background-color);
+}
+
+/* On hover over repo box background changes */
+.box-item:hover {
+    border: 10px solid rgb(1, 59, 92);
+    background-color: var(--background-color);
+    padding: 10px;
+}
+
+/* adjust display for smaller screensize */
+@media screen and (max-width: 768px) {
+
+    .header,
+    .header nav,
+    main,
+    nav,
+    .contact-me {
+        flex-direction: column;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* img {
+        max-width: 250px;
+    } */
+}
