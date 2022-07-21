@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio_for_April_Reitan/static/css/main.db778cb0.chunk.css",
+    "main.js": "/Portfolio_for_April_Reitan/static/js/main.0fc0fd68.chunk.js",
+    "main.js.map": "/Portfolio_for_April_Reitan/static/js/main.0fc0fd68.chunk.js.map",
+    "runtime-main.js": "/Portfolio_for_April_Reitan/static/js/runtime-main.3d2725e6.js",
+    "runtime-main.js.map": "/Portfolio_for_April_Reitan/static/js/runtime-main.3d2725e6.js.map",
+    "static/css/2.cbedb215.chunk.css": "/Portfolio_for_April_Reitan/static/css/2.cbedb215.chunk.css",
+    "static/js/2.16829a82.chunk.js": "/Portfolio_for_April_Reitan/static/js/2.16829a82.chunk.js",
+    "static/js/2.16829a82.chunk.js.map": "/Portfolio_for_April_Reitan/static/js/2.16829a82.chunk.js.map",
+    "index.html": "/Portfolio_for_April_Reitan/index.html",
+    "static/css/2.cbedb215.chunk.css.map": "/Portfolio_for_April_Reitan/static/css/2.cbedb215.chunk.css.map",
+    "static/css/main.db778cb0.chunk.css.map": "/Portfolio_for_April_Reitan/static/css/main.db778cb0.chunk.css.map",
+    "static/js/2.16829a82.chunk.js.LICENSE.txt": "/Portfolio_for_April_Reitan/static/js/2.16829a82.chunk.js.LICENSE.txt",
+    "static/media/1_index_screenshot.bafb7825.png": "/Portfolio_for_April_Reitan/static/media/1_index_screenshot.bafb7825.png",
+    "static/media/2_Accessible_Wesite_Display.c35d56e7.png": "/Portfolio_for_April_Reitan/static/media/2_Accessible_Wesite_Display.c35d56e7.png",
+    "static/media/3_password.2bcb84c1.png": "/Portfolio_for_April_Reitan/static/media/3_password.2bcb84c1.png",
+    "static/media/4_Day_Planner.9d07baef.png": "/Portfolio_for_April_Reitan/static/media/4_Day_Planner.9d07baef.png",
+    "static/media/5_ViewProfile.c866670d.png": "/Portfolio_for_April_Reitan/static/media/5_ViewProfile.c866670d.png",
+    "static/media/6_New_post.77c5df05.png": "/Portfolio_for_April_Reitan/static/media/6_New_post.77c5df05.png",
+    "static/media/pexels-rovenimagescom-949587.1af7a991.jpg": "/Portfolio_for_April_Reitan/static/media/pexels-rovenimagescom-949587.1af7a991.jpg",
+    "static/media/pic.2b6cfee7.jpg": "/Portfolio_for_April_Reitan/static/media/pic.2b6cfee7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d2725e6.js",
+    "static/css/2.cbedb215.chunk.css",
+    "static/js/2.16829a82.chunk.js",
+    "static/css/main.db778cb0.chunk.css",
+    "static/js/main.0fc0fd68.chunk.js"
+  ]
+}
