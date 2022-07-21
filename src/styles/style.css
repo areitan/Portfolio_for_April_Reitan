@@ -14,17 +14,10 @@
 }
 
 
-/* Set text styling nav links  */
-nav a {
-    text-decoration: underline;
-    font-size: 25px;
-    color: var(--white);
-}
-
-/* On hover over nav links background changes */
+/* On hover over nav links background changes
 nav a:hover {
     background-color: var(--background-color);
-}
+} */
 
 /* Set h2 font size */
 h2 {

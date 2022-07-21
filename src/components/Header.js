@@ -5,6 +5,9 @@ import background from '../assets/pexels-rovenimagescom-949587.jpg'
 const styles = {
   header: {
     maxWidth: "300px",
+  },
+  myName: {
+    justifyContent: "flexEnd",
   }
 };
 
@@ -12,7 +15,9 @@ function Header() {
   return (
     <div style={{ backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat',
     backgroundSize:'cover' }}>
-      <p>April Reitan</p>
+      <div style={styles.myName}>
+      April Reitan
+      </div>
       <div style={styles.header}>
       <img style={{ width: 225, height: 300 }} src={myPic} alt="It's me, April!"/>
     </div>
