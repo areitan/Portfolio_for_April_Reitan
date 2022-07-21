@@ -46,14 +46,14 @@ function Form() {
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="Email"
         />
         <input
           value={contactName}
           name="contactName"
           onChange={handleInputChange}
           type="text"
-          placeholder="contactName"
+          placeholder="Your Name"
         />
         <input
           value={message}
