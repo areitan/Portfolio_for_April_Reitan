@@ -7,7 +7,7 @@ const styles = {
     maxWidth: "300px",
   },
   myName: {
-    justifyContent: "flexEnd",
+    justifyText: "right",
   }
 };
 

@@ -39,7 +39,7 @@ function Form() {
 
   return (
     <div>
-      <p>Hello {contactName}</p>
+      <p>Hello! Thank you for stopping by {contactName}. Please contact me with any questions.</p>
       <form className="form">
         <input
           value={email}
