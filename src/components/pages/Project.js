@@ -5,6 +5,9 @@ import Pic2 from '../../assets/2_Accessible_Wesite_Display.png'
 import Pic3 from '../../assets/3_password.png'
 import Pic4 from '../../assets/4_Day_Planner.png'
 import Pic5 from '../../assets/5_ViewProfile.png'
+import Pic6 from '../../assets/6_New_post.png'
+
+
 
 
 
@@ -52,8 +55,9 @@ boxItem: {
 
 export default function Project() {
   return (
+    <div><h1>My Projects</h1>
     <div style={styles.work}>
-      <h1 id="work">My Work</h1>
+      <h1>My Work</h1>
       <div style={styles.picGrid}>
         <div style={styles.boxItem}>
           <a href="https://areitan.github.io/PocketMonster/"><img style={{ width: 800, height: "auto" }} className="big" alt="PocketMonster"
@@ -79,8 +83,14 @@ export default function Project() {
           <a href="https://drive.google.com/file/d/1g5jCev9P6KtSrnee9WpiLV1jh25YpQS9/view"><img style={{ width: 600, height: "auto" }} alt="Team Profile Generator"
             src={Pic5}/></a>
           <div style={styles.textPosition}>Team Profile Generator</div>
-        </div>
+                  </div>
+                  <div style={styles.boxItem}>
+          <a href="https://community-closet-206.herokuapp.com/"><img style={{ width: 600, height: "auto" }} alt="Community Closet"
+            src={Pic6}/></a>
+          <div style={styles.textPosition}>Community Closet</div>
+                  </div>
       </div>
+    </div>
     </div>
   );
 }
