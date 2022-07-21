@@ -33,6 +33,11 @@ In order to use this application, you could clone the repo and run it in the ter
 
 In order to use this application, navigate to the deployed application: [Portfolio for April Reitan Deployed Page]()
 
+![Portfolio for April Reitan: About Me](/src/assets/1_aboutMe.png)
+![Portfolio for April Reitan: My Projects](/src/assets/2_projects.png)
+![Portfolio for April Reitan: Contact Me](/src/assets/3_contact.png)
+![Portfolio for April Reitan: My Resume](/src/assets/4_resume.png)
+
 ---
 ## Tests
 
