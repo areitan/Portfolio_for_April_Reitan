@@ -33,10 +33,18 @@ In order to use this application, you could clone the repo and run it in the ter
 
 In order to use this application, navigate to the deployed application: [Portfolio for April Reitan Deployed Page](https://areitan.github.io/Portfolio_for_April_Reitan/)
 
+### About Me
 ![Portfolio for April Reitan: About Me](/src/assets/1_aboutMe.png)
+
+### My Projects
 ![Portfolio for April Reitan: My Projects](/src/assets/2_projects.png)
+
+### Contact Me
 ![Portfolio for April Reitan: Contact Me](/src/assets/3_contact.png)
+
+### My Resume
 ![Portfolio for April Reitan: My Resume](/src/assets/4_resume.png)
+
 
 ---
 ## Tests
@@ -47,11 +55,11 @@ Tests of this site were done manually by accessing and viewing the site.
 ![Portfolio for April Reitan Mock-up 1](/src/assets/20-react-homework-demo-01.gif)
 
 
-
 --- 
 ## Contribute
 
 In order to create this application, I used the skills I have at the moment. I am open to suggestions, if there are ways to streamline the code or if any bugs are found.
+
 
 ---
 ## Credits
