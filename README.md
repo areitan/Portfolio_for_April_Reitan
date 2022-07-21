@@ -25,13 +25,13 @@ This is a Portfolio for April Reitan built using [React](https://www.mongodb.com
 In order to use this application, you could clone the repo and run it in the terminal using ```node server.js```. 
 
 - [Portfolio for April Reitan Git Hub Repository](https://github.com/areitan/Portfolio_for_April_Reitan)
-- [Portfolio for April Reitan Deployed Page]()
+- [Portfolio for April Reitan Deployed Page](https://areitan.github.io/Portfolio_for_April_Reitan/)
 
 
 ---
 ## Usage
 
-In order to use this application, navigate to the deployed application: [Portfolio for April Reitan Deployed Page]()
+In order to use this application, navigate to the deployed application: [Portfolio for April Reitan Deployed Page](https://areitan.github.io/Portfolio_for_April_Reitan/)
 
 ![Portfolio for April Reitan: About Me](/src/assets/1_aboutMe.png)
 ![Portfolio for April Reitan: My Projects](/src/assets/2_projects.png)
